@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Club Fitness Ana Vera</h1>
+
+    <div id="info-gral-div">
+    <form action="a" name="formulario" method="post">
+        <section id="section1Id">
+            <fieldset id="fieldsetId">
+                <legend>Información General</legend>
+                <label for="">Nombre</label>
+                <input type="text" placeholder="Escribe tu nombre aquí">
+                <br><br>
+                <label for="">¿Eres miembro?</label>
+                <br>
+                <input type="radio" name="miembro" value="1">
+                <label for="1">Sí</label>
+                <input type="radio" name="miembro" value="0">
+                <label for="0">No</label>
+                <br><br>
+                <label for="personalidad">Escribe tu personalidad</label>
+                <br>
+                <textarea name="personalidad" id="" cols="30" rows="10"></textarea>
+                <br><br>
+                <label for="email">E-mail</label>
+                <input type="text" name="email" placeholder="Escribe tu correo electrónico">
+            </fieldset>
+        </section>
+
+        <section id="section2Id">
+            <label for="instalaciones">Instalaciones</label>
+            <select name="instalaciones" id="">
+                <option value="1">Garza Sada</option>
+                <option value="2">Barrio Antiguo</option>
+                <option value="3">La Rioja</option>
+            </select>
+            <br><br>
+            <label for="fecha">Selecciona fecha y hora para para reservar:</label>
+            <br>
+            <input type="date"><input type="time">   
+            <br><br>
+            <input type="checkbox" name="agree">
+            <label for="agree">Estoy de acuerdo con las políticas del club</label>
+            <br><br>
+            <button>Enviar</button>
+        </section> 
+    </form>
+    </div>
+   
+
+</body>
+</html>

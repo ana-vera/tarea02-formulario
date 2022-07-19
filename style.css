@@ -1,0 +1,27 @@
+#titulo{
+   color: white; 
+   background-color: #df3662;
+   text-align: center;
+   padding: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-radius: 10px;
+}
+
+#info-gral-div{
+    background-color: #e4edef;
+    border-radius: 1%;
+    border-style: dashed;
+    border-color: #a4a9aa;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+#section2Id{
+    padding-top: 20px;
+}
